@@ -1,0 +1,134 @@
+#PRForm{
+  border-radius: 20px;
+  margin-top: 10px;
+  background-color: rgba(11, 14, 14, 0.5);
+  width: 50%;
+  display: flex;
+  margin-left: 340px;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+.PFLabel1{
+  display: flex;
+padding-top: 10px;
+color: white;
+}
+
+.PFLabel1CP{  
+  display: flex;
+  padding-top: 30px;
+  color: white;
+}
+
+.input1{
+  margin-left: 30px;
+  border-radius: 6px;
+  border: 2px solid black;
+}
+.input2{
+  margin-left: 74px;
+  border-radius: 6px;
+  border: 2px solid black;
+}
+.input3{
+  margin-left: 37px;
+  border-radius: 6px;
+  border: 2px solid black;
+}
+.input4{
+  margin-left: 17px;
+  border-radius: 6px;
+  border: 2px solid black;
+}
+.input5{
+  margin-left: 88px;
+  border-radius: 6px;
+  border: 2px solid black;
+}
+.input6{
+  margin-left: 60px;
+  border-radius: 6px;
+  border: 2px solid black;
+}
+
+.input6CP{
+  margin-left: 8px;
+  border-radius: 6px;
+  border: 2px solid black;
+}
+.input7{
+  margin-left: 78px;
+  border-radius: 6px;
+  border: 2px solid black;
+}
+.input8{
+  margin-left: 35px;
+  border-radius: 6px;
+  border: 2px solid black;
+}
+.input9{
+  margin-left: 17px;
+  border-radius: 6px;
+  border: 2px solid black;
+}
+.input10{
+  margin-left: 34px;
+  border-radius: 6px;
+  border: 2px solid black;
+}
+.input11{
+  margin-left: 30px;
+  border-radius: 6px;
+  border: 2px solid black;
+}
+.pftoph{
+margin-top: 10px;
+width: 100%;
+justify-content: center;
+text-align: center;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+@media (max-width: 768px) {
+  #PRForm {
+    flex-direction: column; /* Stack input fields vertically */
+    width: 80%; /* Adjust width for smaller screens */
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+}
+@media (max-width: 576px) {
+  #PRForm {
+    width: 90%; /* Adjust width for smaller screens */
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .input1, .input2, .input3, .input4, .input5, .input6, .input7, .input8, .input9, .input10, .input11 {
+    font-size: 0.8rem; /* Reduce font size for smaller screens */
+  }
+}
+#height{
+  margin-left: 58px;
+border-radius: 6px;
+border: 2px solid black;
+margin-top: 10px;
+}
+#weight{
+  margin-left: 58px;
+border-radius: 6px;
+border: 2px solid black;
+margin-top: 10px;
+}
+#bloodGroup{
+  margin-left: 58px;
+border-radius: 6px;
+border: 2px solid black;
+margin-top: 10px;
+}
+.rfml{
+  display: flex;
+  padding-top: 10px;
+}

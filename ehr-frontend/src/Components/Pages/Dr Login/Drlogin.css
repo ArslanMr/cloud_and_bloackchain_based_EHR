@@ -1,0 +1,69 @@
+#dLform{
+    border-radius: 20px;
+    margin-top: 10px;
+    background-color: rgba(11, 14, 14, 0.5);
+    width: 50%;
+    display: flex;
+    margin-left: 340px;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+.dltoph{
+    margin-top: 40px;
+width: 100%;
+justify-content: center;
+text-align: center;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+
+.dlinput1{
+margin-left: 58px;
+border-radius: 6px;
+border: 2px solid black;
+}
+.dlinput2{
+    margin-left: 30px;
+    border-radius: 6px;
+    border: 2px solid black;
+    }
+
+    /* Styles for screens smaller than 600px */
+@media (max-width: 600px) {
+    #dLform {
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .dlinput1 {
+      margin-left: 0;
+      margin-top: 10px;
+      width: 90%;
+    }
+    .dlinput2 {
+      margin-left: 0;
+      margin-top: 10px;
+      width: 90%;
+    }
+  }
+  
+  /* Styles for screens larger than 600px */
+  @media (min-width: 600px) {
+    #dLform {
+      width: 50%;
+      margin-left: 340px;
+    }
+    .dlinput1 {
+      margin-left: 58px;
+      margin-top: 0;
+      width: auto;
+    }
+    .dlinput2 {
+      margin-left: 30px;
+      margin-top: 0;
+      width: auto;
+    }
+  }
+  

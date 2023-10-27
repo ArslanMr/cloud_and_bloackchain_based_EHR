@@ -1,0 +1,30 @@
+.HNav{
+    background-color: rgb(140, 138, 138);
+  }
+  
+  #navcon{
+    margin-left: 0px;
+    color: white;
+  }
+  
+  #navhe{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+  }
+  
+  .me-auto{
+    margin-left: 890px;
+  }
+  
+  #basic-nav-dropdown, #ho{
+    color: white;
+  }
+  
+  /* Added CSS for collapsed navbar menu on small screens */
+  @media (max-width: 991px) {
+    .me-auto{
+      margin-left: 0;
+    }
+  }
+  

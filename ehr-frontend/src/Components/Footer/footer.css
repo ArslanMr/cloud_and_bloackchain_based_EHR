@@ -1,0 +1,50 @@
+.Ftcontainer{
+    height: 314px;
+    background-color: rgb(14, 14, 14);
+    color: aliceblue;
+    margin-top: 2px;
+
+}
+#anch{
+    text-decoration: none;
+    color: inherit;
+}
+ul{
+    list-style-type: none;
+}
+.Footlable{
+    text-align: left;
+    height: 200px;    
+}
+
+.Ft2container{
+    margin-bottom: 10px;
+    text-align: center;
+    padding-top: 30px;
+}
+.FoTl1{
+    float:left;
+    width:25%;
+}
+.FoTl2{
+    float:left;
+    width: 25%;
+}
+
+.FoTl3{
+    float:left;
+    width:25%;
+}
+
+.FoTl4{
+    float:right;
+    width:25%;
+}
+.copy {
+    color: black; 
+ }
+ .icons .fa{
+    padding:  18px;
+    margin: 13px;
+    cursor: pointer;
+}

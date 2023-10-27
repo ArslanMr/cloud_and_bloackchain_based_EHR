@@ -1,0 +1,85 @@
+#PLform{
+    border-radius: 20px;
+    margin-top: 10px;
+    background-color: rgba(11, 14, 14, 0.5);
+    width: 50%;
+    display: flex;
+    margin-left: 340px;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+.pltoph{
+    margin-top: 40px;
+width: 100%;
+justify-content: center;
+text-align: center;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+
+.plinput1{
+margin-left: 58px;
+border-radius: 6px;
+border: 2px solid black;
+}
+.plinput2{
+    margin-left: 30px;
+    border-radius: 6px;
+    border: 2px solid black;
+    }
+    .plinput3{
+      margin-left: 32px;
+      border-radius: 6px;
+      border: 2px solid black;
+      }
+
+
+    /* Styles for screens smaller than 600px */
+    @media (max-width: 600px) {
+        #PLform {
+          width: 90%;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        .plinput1 {
+          margin-left: 0;
+          margin-top: 10px;
+          width: 90%;
+        }
+        .plinput2 {
+          margin-left: 0;
+          margin-top: 10px;
+          width: 90%;
+        }
+        .plinput3{
+          margin-left: 32px;
+          border-radius: 6px;
+          border: 2px solid black;
+          }
+      }
+      
+      /* Styles for screens larger than 600px */
+      @media (min-width: 600px) {
+        #PLform {
+          width: 50%;
+          margin-left: 340px;
+        }
+        .plinput1 {
+          margin-left: 58px;
+          margin-top: 0;
+          width: auto;
+        }
+        .plinput2 {
+          margin-left: 30px;
+          margin-top: 0;
+          width: auto;
+        }
+        .plinput3{
+          margin-left: 32px;
+          border-radius: 6px;
+          border: 2px solid black;
+          }
+      }
+      

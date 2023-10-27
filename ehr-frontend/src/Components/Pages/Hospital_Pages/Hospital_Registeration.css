@@ -1,0 +1,191 @@
+.maindiv{
+  justify-content: center;
+}
+
+.regcon{
+    margin-top: 10px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+   
+}
+
+.HRform{
+  border-radius: 20px;
+  margin-top: 10px;
+  background-color: rgba(11, 14, 14, 0.5);
+  width: 60%;
+  display: flex;
+  margin-left: 260px;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.HFlable1,.HFlable2,  .HFlable4, .HFlable5,.HFlable6,.HFlable7,.HFlable8,.HFlable9,.HFlable10,.HFlable42 {
+display: flex;
+padding-top: 10px;
+color: white;
+margin-left: 120px;
+}
+
+.HinputC{
+  margin-left: 213px;
+    border-radius: 6px;
+    border: 2px solid black;
+    width: 240px;
+}
+
+.Hinput1{
+    margin-left: 175px;
+    border-radius: 6px;
+    border: 2px solid black;
+    width: 240px;
+}
+.Hinput2{
+  margin-left: 200px;
+  border-radius: 6px;
+  border: 2px solid black;
+  width: 240px;
+}
+
+.Hinput4{
+  margin-left: 215px;
+  border-radius: 6px;
+  border: 2px solid black;
+  width: 240px;
+}
+.Hinput5{
+  margin-left: 243px;
+  border-radius: 6px;
+  border: 2px solid black;
+  width: 240px;
+}
+.Hinput6{
+  margin-left: 251px;
+  border-radius: 6px;
+  border: 2px solid black;
+  width: 240px;
+}
+.Hinput7{
+  margin-left: 220px;
+  border-radius: 6px;
+  border: 2px solid black;
+  width: 240px;
+}
+.Hinput8{
+  margin-left: 173px;
+  border-radius: 6px;
+  border: 2px solid black;
+  width: 240px;
+}
+.Hinput9{
+  margin-left: 173px;
+  border-radius: 6px;
+  border: 2px solid black;
+  width: 240px;
+}
+.Hinput10{
+  margin-left: 213px;
+  border-radius: 6px;
+  border: 2px solid black;
+  width: 240px;
+}
+.Hinput11{
+  margin-left: 153px;
+  border-radius: 6px;
+  border: 2px solid black;
+  width: 240px;
+}
+.Hinput42{
+  margin-left: 153px;
+  border-radius: 6px;
+  border: 2px solid black;
+  width: 240px;
+  
+}
+.steric{
+  color: red;
+  padding-left: 4px;
+  padding-top: 1px;
+}
+
+/* Styles for screens smaller than 768px (e.g. mobile devices) */
+@media (max-width: 767px) {
+  .HRform {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .HFlable1, .HFlable2,  .HFlable4, .HFlable5,
+  .HFlable6, .HFlable7, .HFlable8, .HFlable9,.HFlable42 {
+    margin-right: 0;
+  }
+
+  .Hinput1, .Hinput2,  .Hinput4, .Hinput5,
+  .Hinput6, .Hinput7, .Hinput8, .Hinput9, .Hinput10,
+  .Hinput11,.Hinput42 {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}
+
+/* Styles for screens larger than 768px (e.g. desktops) */
+@media (min-width: 768px) {
+  .HRform {
+    width: 60%;
+    margin-left: 260px;
+  }
+
+  .HFlable1, .HFlable2,  .HFlable4, .HFlable5,
+  .HFlable6, .HFlable7, .HFlable8, .HFlable9, .HFlable10,.Hinput10CP,.HFlable42 {
+    margin-right: 100px;
+  }
+
+  .Hinput1 {
+    margin-left: 175px;
+  }
+
+  .Hinput2 {
+    margin-left: 200px;
+  }
+
+  .Hinput4 {
+    margin-left: 215px;
+  }
+
+  .Hinput5 {
+    margin-left: 243px;
+  }
+
+  .Hinput6 {
+    margin-left: 251px;
+  }
+
+  .Hinput7 {
+    margin-left: 220px;
+  }
+
+  .Hinput8 {
+    margin-left: 173px;
+  }
+
+  .Hinput9 {
+    margin-left: 173px;
+  }
+
+  .Hinput10 {
+    margin-left: 213px;
+  }
+
+ .Hinput11 {
+    margin-left: 153px;
+  }
+  .Hinput42 {
+    margin-left: 153px;
+  }
+}
+
+
+
